@@ -236,7 +236,7 @@ def add_livre():
     new_titre = request_data['titre']
     new_date_publication = request_data['date_publication']
     new_auteur = request_data['auteur']
-    new_edteur = request_data['edteur']
+    new_edteur = request_data['editeur']
     new_categorie_id = request_data['categorie_id']
     livre = Livre(isbn=new_isbn, titre=new_titre, date_publication=new_date_publication,
                 auteur=new_auteur, editeur=new_edteur, categorie_id=new_categorie_id)
